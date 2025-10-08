@@ -10,7 +10,7 @@ namespace Todos.Api.Controllers
         public IActionResult Get()
         {
             var myName = System.Environment.GetEnvironmentVariable("MY_NAME") ?? "unknown";
-            return Ok("pong " + myName);
+            return Ok("poong " + myName);
         }
     }
 }
